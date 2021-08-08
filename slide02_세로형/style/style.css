@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@import url(style_Reset.css);
+
+h1 {
+    width: 1300px;
+    text-align: center;
+    margin: 40px auto;
+}
+
+div#wrap {
+    width: 1300px;
+    padding: 20px;
+    border: 1px solid #000;
+    margin: 20px auto;
+}
+
+div#slide {
+    width: 1200px;
+    height: 300px;
+    /*border: 10px solid #08f;*/
+    margin: 0 auto;
+
+    overflow: hidden;    /* 범람하는 자식요소 숨기기 */
+}
+
+div#shuttleFrame {
+    width: 1200px;
+    height: 900px;
+    /*border: 10px solid #f80;*/
+}
+
+#shuttleFrame a {
+    width: 1200px;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+}
+
+#slide #shuttleFrame a span {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border: 4px solid rgba(170, 170, 170, 0.79);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
